@@ -1,7 +1,6 @@
-import { Description } from "@headlessui/react"
 import { z } from "zod"
 
-/** Projexts */
+/** Projects */
 
 export const projectSchema = z.object({
     _id: z.string(),
